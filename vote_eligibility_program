@@ -1,0 +1,8 @@
+user_age = int(input('enter age:'))
+user_name = input('enter name:')
+
+if user_age >= 18:
+    print('user', user_age ,'is eligible to vote')
+
+else:
+    print('you must be up to 18')
